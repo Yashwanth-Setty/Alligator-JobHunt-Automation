@@ -1,0 +1,16 @@
+openai
+win10toast
+streamlit
+pandas
+python-jobspy
+openpyxl
+httpx
+beautifulsoup4
+python-dotenv
+requests
+psutil
+pdfplumber
+python-docx
+feedparser
+apify-client
+playwright

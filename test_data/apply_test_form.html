@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alligator Apply — Test Form</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px 80px; }
+    label { display: block; margin-top: 12px; font-weight: 600; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+    .note { background: #fef3c7; padding: 12px; border-radius: 6px; margin-bottom: 20px; }
+    .submit-btn {
+      display: block;
+      margin-top: 24px;
+      padding: 16px 32px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      background: #16a34a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      box-shadow: 0 2px 8px rgba(22, 163, 74, 0.35);
+    }
+    .submit-btn:hover { background: #15803d; }
+    .submit-btn:active { background: #166534; }
+    #test-submit-msg {
+      display: none;
+      margin-top: 16px;
+      padding: 14px 16px;
+      background: #ecfdf5;
+      border: 2px solid #16a34a;
+      border-radius: 8px;
+      color: #14532d;
+      font-weight: 600;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Alligator Apply Test Form</h1>
+  <p class="note">Local test page — Playwright should autofill fields below. Do not use for real applications.</p>
+  <form id="test-apply-form">
+    <label for="full_name">Full Name</label>
+    <input type="text" id="full_name" name="full_name" placeholder="Full Name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Email">
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" placeholder="Phone">
+
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Street Address">
+
+    <label for="city">City</label>
+    <input type="text" id="city" name="city" placeholder="City">
+
+    <label for="state">State</label>
+    <input type="text" id="state" name="state" placeholder="State">
+
+    <label for="zip">Zip Code</label>
+    <input type="text" id="zip" name="zip" placeholder="Zip / Postal Code">
+
+    <label for="linkedin">LinkedIn URL</label>
+    <input type="text" id="linkedin" name="linkedin" placeholder="LinkedIn">
+
+    <label for="github">GitHub URL</label>
+    <input type="text" id="github" name="github" placeholder="GitHub">
+
+    <label for="resume">Resume Upload</label>
+    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+
+    <label for="cover_letter">Cover Letter</label>
+    <textarea id="cover_letter" name="cover_letter" rows="6" placeholder="Cover letter or why interested"></textarea>
+
+    <label for="salary">Expected Salary (pause field)</label>
+    <input type="text" id="salary" name="salary" placeholder="Expected salary">
+
+    <label for="visa">Work Authorization (pause field)</label>
+    <input type="text" id="visa" name="visa" placeholder="Visa / sponsorship">
+
+    <button type="submit" id="submit-test-btn" class="submit-btn">Submit Test Application</button>
+    <div id="test-submit-msg" role="status" aria-live="polite"></div>
+  </form>
+
+  <script>
+    document.getElementById('test-apply-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var msg = document.getElementById('test-submit-msg');
+      msg.textContent = 'Test submit clicked. For real applications, user must manually review and submit.';
+      msg.style.display = 'block';
+    });
+  </script>
+</body>
+</html>

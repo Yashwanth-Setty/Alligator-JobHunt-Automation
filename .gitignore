@@ -1,0 +1,84 @@
+# ── Environment & secrets ──────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.development
+.env.*
+!.env.example
+
+# ── API keys & credentials (never commit) ──────────────────────
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ── Personal / candidate data ────────────────────────────────
+resumes/*
+!resumes/.gitkeep
+uploads/
+candidate_data/
+user_data/
+*.pdf
+*.docx
+resume_cache.txt
+resume_cache.json
+
+# ── Database & runtime state ─────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+alligator_apply.lock
+last_run.json
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+
+# ── Exports & generated outputs ────────────────────────────────
+outputs/*
+!outputs/.gitkeep
+logs/*
+!logs/.gitkeep
+exports/
+*.xlsx
+*.xls
+alert_log.csv
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# ── IDE & OS ─────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Streamlit / Playwright ───────────────────────────────────
+.streamlit/secrets.toml
+playwright/.cache/
+.ms-playwright/
+
+# ── Browser sessions & auth tokens ───────────────────────────
+cookies/
+sessions/
+*.session
+auth_tokens/
+
+# ── Local MCP config (may contain paths) ─────────────────────
+mcp_config/claude_desktop_config.json
+jobhunt_task.xml
