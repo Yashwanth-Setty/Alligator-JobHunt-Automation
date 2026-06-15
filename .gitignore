@@ -82,3 +82,11 @@ auth_tokens/
 # ── Local MCP config (may contain paths) ─────────────────────
 mcp_config/claude_desktop_config.json
 jobhunt_task.xml
+
+# ── Full-stack app (alligator-apply/) ─────────────────────────
+alligator-apply/**/node_modules/
+alligator-apply/frontend/dist/
+alligator-apply/backend/data/*.db
+alligator-apply/backend/data/*.db-*
+alligator-apply/backend/uploads/
+alligator-apply/.env

@@ -1,0 +1,31 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Database & uploads (local only)
+backend/data/*.db
+backend/data/*.db-*
+backend/uploads/
+uploads/
+resumes/
+
+# Logs
+*.log
+logs/
+
+# Build
+frontend/dist/
+dist/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets
+*.pem
+*.key

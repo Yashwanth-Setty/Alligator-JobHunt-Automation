@@ -78,7 +78,9 @@ def load_jobs_df() -> pd.DataFrame:
             "apply_status, applied_at, notes, country, location_review, "
             "application_packet, packet_generated_at, duplicate_of, expired, "
             "first_seen_at, last_seen_at, seen_count, resume_variant, role_category, "
-            "recruiter_data FROM jobs ORDER BY score DESC, seen_at DESC"
+            "recruiter_data, employment_type, remote_type, experience_level, "
+            "salary_min, salary_max, date_posted, visa_fit, auto_apply_eligible "
+            "FROM jobs ORDER BY score DESC, seen_at DESC"
         ).fetchall()
     finally:
         conn.close()
@@ -90,6 +92,8 @@ def load_jobs_df() -> pd.DataFrame:
             notes, country, location_review, application_packet, packet_generated_at,
             duplicate_of, expired, first_seen_at, last_seen_at, seen_count,
             resume_variant, role_category, recruiter_data,
+            employment_type, remote_type, experience_level,
+            salary_min, salary_max, date_posted, visa_fit, auto_apply_eligible,
         ) = row
         score = int(score or 0)
         location = infer_location_display(role or "", url or "", location_review or "")
@@ -134,6 +138,14 @@ def load_jobs_df() -> pd.DataFrame:
             "resume_variant_label": variant_label,
             "role_category": role_category or "",
             "recruiter_data": recruiter_data or "",
+            "employment_type": employment_type or "",
+            "remote_type": remote_type or "",
+            "experience_level": experience_level or "",
+            "salary_min": salary_min,
+            "salary_max": salary_max,
+            "date_posted": date_posted or "",
+            "visa_fit": visa_fit or "cpt_friendly",
+            "auto_apply_eligible": bool(auto_apply_eligible),
         })
     return pd.DataFrame(out)
 
