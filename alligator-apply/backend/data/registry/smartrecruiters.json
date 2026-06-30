@@ -1,0 +1,1112 @@
+[
+  {
+    "name": "SmartRecruiters",
+    "boardToken": "SmartRecruiters",
+    "domain": "smartrecruiters.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 80,
+    "enabled": true
+  },
+  {
+    "name": "Visa",
+    "boardToken": "Visa",
+    "domain": "visa.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise",
+      "fintech"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 75,
+    "enabled": true
+  },
+  {
+    "name": "Skechers",
+    "boardToken": "Skechers",
+    "domain": "skechers.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 60,
+    "enabled": true
+  },
+  {
+    "name": "McDonald's",
+    "boardToken": "McDonaldsCorporation",
+    "domain": "mcdonalds.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 58,
+    "enabled": true
+  },
+  {
+    "name": "IKEA",
+    "boardToken": "IKEA",
+    "domain": "ikea.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 57,
+    "enabled": true
+  },
+  {
+    "name": "Sodexo",
+    "boardToken": "Sodexo",
+    "domain": "sodexo.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 56,
+    "enabled": true
+  },
+  {
+    "name": "Siemens",
+    "boardToken": "Siemens",
+    "domain": "siemens.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 55,
+    "enabled": true
+  },
+  {
+    "name": "Bosch",
+    "boardToken": "Bosch",
+    "domain": "bosch.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 55,
+    "enabled": true
+  },
+  {
+    "name": "Santander",
+    "boardToken": "Santander",
+    "domain": "santander.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 54,
+    "enabled": true
+  },
+  {
+    "name": "Adidas",
+    "boardToken": "Adidas",
+    "domain": "adidas.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 54,
+    "enabled": true
+  },
+  {
+    "name": "PepsiCo",
+    "boardToken": "PepsiCo",
+    "domain": "pepsico.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 53,
+    "enabled": true
+  },
+  {
+    "name": "General Mills",
+    "boardToken": "GeneralMills",
+    "domain": "generalmills.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 52,
+    "enabled": true
+  },
+  {
+    "name": "Johnson & Johnson",
+    "boardToken": "JohnsonJohnson",
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 52,
+    "enabled": true
+  },
+  {
+    "name": "Novartis",
+    "boardToken": "Novartis",
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 51,
+    "enabled": true
+  },
+  {
+    "name": "Roche",
+    "boardToken": "Roche",
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 51,
+    "enabled": true
+  },
+  {
+    "name": "Siemens Healthineers",
+    "boardToken": "SiemensHealthineers",
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 50,
+    "enabled": true
+  },
+  {
+    "name": "Philips",
+    "boardToken": "Philips",
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 50,
+    "enabled": true
+  },
+  {
+    "name": "Siemens Energy",
+    "boardToken": "SiemensEnergy",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 49,
+    "enabled": true
+  },
+  {
+    "name": "Ericsson",
+    "boardToken": "Ericsson",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 49,
+    "enabled": true
+  },
+  {
+    "name": "Volvo",
+    "boardToken": "VolvoGroup",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 48,
+    "enabled": true
+  },
+  {
+    "name": "ABB",
+    "boardToken": "ABB",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Accenture",
+    "boardToken": "Accenture",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Alstom",
+    "boardToken": "Alstom",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Amgen",
+    "boardToken": "Amgen",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "AstraZeneca",
+    "boardToken": "AstraZeneca",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Autodesk",
+    "boardToken": "Autodesk",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Aviva",
+    "boardToken": "Aviva",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "AXA",
+    "boardToken": "AXA",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "BASF",
+    "boardToken": "BASF",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Bayer",
+    "boardToken": "Bayer",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "BMW",
+    "boardToken": "BMW",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "BP",
+    "boardToken": "BP",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Capgemini",
+    "boardToken": "Capgemini",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Carrefour",
+    "boardToken": "Carrefour",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Cisco",
+    "boardToken": "Cisco",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Cognizant",
+    "boardToken": "Cognizant",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Continental",
+    "boardToken": "Continental",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Danone",
+    "boardToken": "Danone",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Dell",
+    "boardToken": "Dell",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Deloitte",
+    "boardToken": "Deloitte",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "DeutscheBank",
+    "boardToken": "DeutscheBank",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "DHL",
+    "boardToken": "DHL",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "EY",
+    "boardToken": "EY",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "FedEx",
+    "boardToken": "FedEx",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "GE",
+    "boardToken": "GE",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Generali",
+    "boardToken": "Generali",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "H&M",
+    "boardToken": "H&M",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Heineken",
+    "boardToken": "Heineken",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Hitachi",
+    "boardToken": "Hitachi",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Honeywell",
+    "boardToken": "Honeywell",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "HP",
+    "boardToken": "HP",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "HSBC",
+    "boardToken": "HSBC",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Huawei",
+    "boardToken": "Huawei",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "IBM",
+    "boardToken": "IBM",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Infineon",
+    "boardToken": "Infineon",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "ING",
+    "boardToken": "ING",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Intel",
+    "boardToken": "Intel",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "KPMG",
+    "boardToken": "KPMG",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "L'Oreal",
+    "boardToken": "L'Oreal",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Lidl",
+    "boardToken": "Lidl",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "LinkedIn",
+    "boardToken": "LinkedIn",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Lufthansa",
+    "boardToken": "Lufthansa",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Maersk",
+    "boardToken": "Maersk",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "ManpowerGroup",
+    "boardToken": "ManpowerGroup",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Mercedes",
+    "boardToken": "Mercedes",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Microsoft",
+    "boardToken": "Microsoft",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "MorganStanley",
+    "boardToken": "MorganStanley",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Nestle",
+    "boardToken": "Nestle",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Nokia",
+    "boardToken": "Nokia",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Oracle",
+    "boardToken": "Oracle",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Pfizer",
+    "boardToken": "Pfizer",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "PwC",
+    "boardToken": "PwC",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Renault",
+    "boardToken": "Renault",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "SAP",
+    "boardToken": "SAP",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Schneider",
+    "boardToken": "Schneider",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Sony",
+    "boardToken": "Sony",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "SwissRe",
+    "boardToken": "SwissRe",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "T-Mobile",
+    "boardToken": "T-Mobile",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Telefonica",
+    "boardToken": "Telefonica",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Tesla",
+    "boardToken": "Tesla",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Thales",
+    "boardToken": "Thales",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "TotalEnergies",
+    "boardToken": "TotalEnergies",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Toyota",
+    "boardToken": "Toyota",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Unilever",
+    "boardToken": "Unilever",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Valeo",
+    "boardToken": "Valeo",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Veolia",
+    "boardToken": "Veolia",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Volkswagen",
+    "boardToken": "Volkswagen",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Volvo",
+    "boardToken": "Volvo",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Wipro",
+    "boardToken": "Wipro",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Xerox",
+    "boardToken": "Xerox",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Zalando",
+    "boardToken": "Zalando",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Zurich",
+    "boardToken": "Zurich",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  }
+]

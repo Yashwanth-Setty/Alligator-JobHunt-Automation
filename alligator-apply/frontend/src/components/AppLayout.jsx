@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Sidebar from './Sidebar';
+import DataModeBanner from './DataModeBanner';
 import { api } from '@/lib/api';
 
 const SidebarContext = createContext({ refresh: () => {} });
@@ -47,6 +48,7 @@ export default function AppLayout() {
         <Sidebar profile={profile} />
         <main className="min-h-screen flex-1 overflow-auto">
           <div className="mx-auto max-w-6xl p-5 sm:p-6 lg:p-8">
+            <DataModeBanner />
             <Outlet />
           </div>
         </main>

@@ -19,14 +19,52 @@ export function Badge({ className, variant = 'gray', children }) {
 
 export function statusVariant(status) {
   const map = {
-    found: 'gray', matched: 'blue', ready_to_apply: 'green', auto_applied: 'green',
-    manual_pending: 'amber', applied: 'green', waiting: 'blue', recruiter_screen: 'purple',
-    hr_round: 'purple', technical_interview: 'purple', final_interview: 'purple',
-    offer: 'green', hired: 'green', rejected: 'red', failed: 'red', skipped: 'gray',
+    found: 'gray',
+    matched: 'blue',
+    recommended: 'blue',
+    ready_to_apply: 'green',
+    applying: 'amber',
+    auto_applied: 'green',
+    manual_pending: 'amber',
+    applied: 'green',
+    waiting: 'blue',
+    recruiter_screen: 'purple',
+    hr_round: 'purple',
+    technical_interview: 'purple',
+    final_interview: 'purple',
+    interview: 'purple',
+    offer: 'green',
+    hired: 'green',
+    rejected: 'red',
+    failed: 'red',
+    skipped: 'gray',
   };
   return map[status] || 'gray';
 }
 
+const STATUS_LABELS = {
+  found: 'Matched',
+  matched: 'Matched',
+  recommended: 'Recommended',
+  ready_to_apply: 'Ready to Apply',
+  applying: 'Applying',
+  auto_applied: 'Applied',
+  applied: 'Applied',
+  manual_pending: 'Manual Required',
+  waiting: 'Applying',
+  recruiter_screen: 'Interview',
+  hr_round: 'Interview',
+  technical_interview: 'Interview',
+  final_interview: 'Interview',
+  interview: 'Interview',
+  offer: 'Offer',
+  hired: 'Offer',
+  rejected: 'Rejected',
+  failed: 'Rejected',
+  skipped: 'Skipped',
+};
+
 export function formatStatus(s) {
+  if (STATUS_LABELS[s]) return STATUS_LABELS[s];
   return (s || '').replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }

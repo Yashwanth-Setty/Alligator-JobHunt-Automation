@@ -1,30 +1,19 @@
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Input, Select } from './ui/input';
 
 const VISA_OPTIONS = [
   { value: '', label: 'Any' },
-  { value: 'cpt_friendly', label: 'CPT Friendly' },
-  { value: 'sponsorship_friendly', label: 'Sponsorship Friendly' },
-  { value: 'no_sponsorship', label: 'No Sponsorship' },
-  { value: 'sponsorship_unknown', label: 'Unknown' },
+  { value: 'positive', label: 'Visa positive' },
+  { value: 'negative', label: 'Visa negative' },
+  { value: 'unknown', label: 'Unknown' },
 ];
 
-export default function JobFilters({ filters, onChange, disabled }) {
+export default function JobFilters({ filters, onChange, disabled, advanced = false }) {
   const set = (key, value) => onChange({ ...filters, [key]: value });
 
+  if (!advanced) return null;
+
   return (
-    <Card>
-      <CardHeader className="pb-3">
-        <CardTitle className="text-base">Job Search Filters</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <fieldset disabled={disabled} className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          <Field label="Keywords / job title">
-            <Input placeholder="e.g. backend engineer" value={filters.keywords || ''} onChange={(e) => set('keywords', e.target.value)} />
-          </Field>
-          <Field label="Location">
-            <Input placeholder="City, state, remote" value={filters.location || ''} onChange={(e) => set('location', e.target.value)} />
-          </Field>
+    <fieldset disabled={disabled} className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           <Field label="Company">
             <Input placeholder="Company name" value={filters.company || ''} onChange={(e) => set('company', e.target.value)} />
           </Field>
@@ -52,6 +41,7 @@ export default function JobFilters({ filters, onChange, disabled }) {
                 <option key={o.value} value={o.value}>{o.label}</option>
               ))}
             </Select>
+            <p className="mt-1 text-[10px] text-muted-foreground">Applies to Recommended tab only.</p>
           </Field>
           <Field label="Employment type">
             <Select value={filters.employmentType || ''} onChange={(e) => set('employmentType', e.target.value)}>
@@ -79,8 +69,9 @@ export default function JobFilters({ filters, onChange, disabled }) {
               <option value="90">Last 90 days</option>
             </Select>
           </Field>
-          <Field label="Minimum match %">
+          <Field label="Recommended match threshold %">
             <Input type="number" min={0} max={100} value={filters.minScore ?? '50'} onChange={(e) => set('minScore', e.target.value)} />
+            <p className="mt-1 text-[10px] text-muted-foreground">Used for Recommended tab only. All Jobs shows every result.</p>
           </Field>
           <Field label="Salary min ($k)">
             <Input type="number" min={0} placeholder="0" value={filters.salaryMinK || ''} onChange={(e) => set('salaryMinK', e.target.value)} />
@@ -89,8 +80,6 @@ export default function JobFilters({ filters, onChange, disabled }) {
             <Input type="number" min={0} placeholder="Any" value={filters.salaryMaxK || ''} onChange={(e) => set('salaryMaxK', e.target.value)} />
           </Field>
         </fieldset>
-      </CardContent>
-    </Card>
   );
 }
 

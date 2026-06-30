@@ -2,6 +2,7 @@ import { getDb, now } from '../db/database.js';
 import { seedFromMock } from '../services/jobScanService.js';
 import { getWatsonxStatus } from '../services/watsonxAgentService.js';
 import { getPlaywrightConfig } from '../services/playwrightService.js';
+import { getProductCapabilities } from '../config/productCapabilities.js';
 
 const DEFAULTS = {
   full_name: '',
@@ -37,6 +38,7 @@ export function getSettings() {
       watsonx: getWatsonxStatus(),
       playwright: getPlaywrightConfig(),
       openaiConfigured: Boolean(process.env.OPENAI_API_KEY),
+      capabilities: getProductCapabilities(),
     },
   };
 }

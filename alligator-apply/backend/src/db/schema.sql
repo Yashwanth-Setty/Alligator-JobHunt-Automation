@@ -7,7 +7,12 @@ CREATE TABLE IF NOT EXISTS resume_profiles (
   file_type TEXT,
   file_size INTEGER DEFAULT 0,
   uploaded_at TEXT NOT NULL,
-  is_active INTEGER DEFAULT 1
+  is_active INTEGER DEFAULT 1,
+  extracted_text TEXT DEFAULT '',
+  parsed_profile TEXT DEFAULT '{}',
+  parse_status TEXT DEFAULT 'pending',
+  parse_error TEXT DEFAULT '',
+  parsed_at TEXT
 );
 
 CREATE TABLE IF NOT EXISTS jobs (
@@ -27,6 +32,13 @@ CREATE TABLE IF NOT EXISTS jobs (
   visa_fit TEXT DEFAULT 'unknown',
   auto_apply_eligible INTEGER DEFAULT 0,
   pipeline_status TEXT DEFAULT 'found',
+  data_source TEXT DEFAULT 'live',
+  description TEXT DEFAULT '',
+  quality_checks TEXT,
+  is_hidden INTEGER DEFAULT 0,
+  is_saved INTEGER DEFAULT 0,
+  scan_run_id TEXT,
+  normalized_location TEXT,
   notes TEXT DEFAULT '',
   created_at TEXT NOT NULL,
   updated_at TEXT NOT NULL

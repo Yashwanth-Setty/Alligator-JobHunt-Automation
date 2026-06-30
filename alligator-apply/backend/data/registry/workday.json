@@ -1,0 +1,1430 @@
+[
+  {
+    "name": "NVIDIA",
+    "connectionPayload": {
+      "tenant": "nvidia",
+      "wdInstance": "wd5",
+      "hostSlug": "nvidia",
+      "site": "NVIDIAExternalCareerSite",
+      "locale": "en-US"
+    },
+    "domain": "nvidia.com",
+    "industry": "Semiconductors",
+    "tags": [
+      "ai",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 90,
+    "enabled": true
+  },
+  {
+    "name": "Salesforce",
+    "connectionPayload": {
+      "tenant": "salesforce",
+      "wdInstance": "wd12",
+      "hostSlug": "salesforce",
+      "site": "External_Career_Site",
+      "locale": "en-US"
+    },
+    "domain": "salesforce.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 88,
+    "enabled": true
+  },
+  {
+    "name": "Adobe",
+    "connectionPayload": {
+      "tenant": "adobe",
+      "wdInstance": "wd5",
+      "hostSlug": "adobe",
+      "site": "external_experienced",
+      "locale": "en-US"
+    },
+    "domain": "adobe.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 85,
+    "enabled": true
+  },
+  {
+    "name": "ServiceNow",
+    "connectionPayload": {
+      "tenant": "servicenow",
+      "wdInstance": "wd1",
+      "hostSlug": "servicenow",
+      "site": "careers",
+      "locale": "en-US"
+    },
+    "domain": "servicenow.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 84,
+    "enabled": true
+  },
+  {
+    "name": "Netflix",
+    "connectionPayload": {
+      "tenant": "netflix",
+      "wdInstance": "wd1",
+      "hostSlug": "netflix",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "netflix.com",
+    "industry": "Technology",
+    "tags": [
+      "faang",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 83,
+    "enabled": true
+  },
+  {
+    "name": "Microsoft",
+    "connectionPayload": {
+      "tenant": "microsoft",
+      "wdInstance": "wd1",
+      "hostSlug": "microsoft",
+      "site": "Microsoft",
+      "locale": "en-us"
+    },
+    "domain": "microsoft.com",
+    "industry": "Technology",
+    "tags": [
+      "faang",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 92,
+    "enabled": true
+  },
+  {
+    "name": "Intel",
+    "connectionPayload": {
+      "tenant": "intel",
+      "wdInstance": "wd1",
+      "hostSlug": "intel",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "intel.com",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 80,
+    "enabled": true
+  },
+  {
+    "name": "AMD",
+    "connectionPayload": {
+      "tenant": "amd",
+      "wdInstance": "wd1",
+      "hostSlug": "amd",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "amd.com",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 79,
+    "enabled": true
+  },
+  {
+    "name": "Qualcomm",
+    "connectionPayload": {
+      "tenant": "qualcomm",
+      "wdInstance": "wd5",
+      "hostSlug": "qualcomm",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "qualcomm.com",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 78,
+    "enabled": true
+  },
+  {
+    "name": "Cisco",
+    "connectionPayload": {
+      "tenant": "cisco",
+      "wdInstance": "wd5",
+      "hostSlug": "cisco",
+      "site": "CiscoCareers",
+      "locale": "en-US"
+    },
+    "domain": "cisco.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 77,
+    "enabled": true
+  },
+  {
+    "name": "Dell Technologies",
+    "connectionPayload": {
+      "tenant": "dell",
+      "wdInstance": "wd1",
+      "hostSlug": "dell",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "dell.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 76,
+    "enabled": true
+  },
+  {
+    "name": "HP",
+    "connectionPayload": {
+      "tenant": "hp",
+      "wdInstance": "wd5",
+      "hostSlug": "hp",
+      "site": "ExternalCareerSite",
+      "locale": "en-US"
+    },
+    "domain": "hp.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 75,
+    "enabled": true
+  },
+  {
+    "name": "IBM",
+    "connectionPayload": {
+      "tenant": "ibm",
+      "wdInstance": "wd1",
+      "hostSlug": "ibm",
+      "site": "IBM",
+      "locale": "en-US"
+    },
+    "domain": "ibm.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 74,
+    "enabled": true
+  },
+  {
+    "name": "Oracle",
+    "connectionPayload": {
+      "tenant": "oracle",
+      "wdInstance": "wd1",
+      "hostSlug": "oracle",
+      "site": "Oracle",
+      "locale": "en-US"
+    },
+    "domain": "oracle.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 73,
+    "enabled": true
+  },
+  {
+    "name": "SAP",
+    "connectionPayload": {
+      "tenant": "sap",
+      "wdInstance": "wd3",
+      "hostSlug": "sap",
+      "site": "SAP",
+      "locale": "en-US"
+    },
+    "domain": "sap.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 72,
+    "enabled": true
+  },
+  {
+    "name": "Workday",
+    "connectionPayload": {
+      "tenant": "workday",
+      "wdInstance": "wd5",
+      "hostSlug": "workday",
+      "site": "Workday",
+      "locale": "en-US"
+    },
+    "domain": "workday.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 71,
+    "enabled": true
+  },
+  {
+    "name": "Intuit",
+    "connectionPayload": {
+      "tenant": "intuit",
+      "wdInstance": "wd1",
+      "hostSlug": "intuit",
+      "site": "Intuit",
+      "locale": "en-US"
+    },
+    "domain": "intuit.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 70,
+    "enabled": true
+  },
+  {
+    "name": "Autodesk",
+    "connectionPayload": {
+      "tenant": "autodesk",
+      "wdInstance": "wd1",
+      "hostSlug": "autodesk",
+      "site": "Ext",
+      "locale": "en-US"
+    },
+    "domain": "autodesk.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 69,
+    "enabled": true
+  },
+  {
+    "name": "Autodesk Alt",
+    "connectionPayload": {
+      "tenant": "autodesk",
+      "wdInstance": "wd1",
+      "hostSlug": "autodesk",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "autodesk.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 50,
+    "enabled": true
+  },
+  {
+    "name": "PayPal",
+    "connectionPayload": {
+      "tenant": "paypal",
+      "wdInstance": "wd1",
+      "hostSlug": "paypal",
+      "site": "jobs",
+      "locale": "en-US"
+    },
+    "domain": "paypal.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 68,
+    "enabled": true
+  },
+  {
+    "name": "Visa",
+    "connectionPayload": {
+      "tenant": "visa",
+      "wdInstance": "wd1",
+      "hostSlug": "visa",
+      "site": "Visa",
+      "locale": "en-US"
+    },
+    "domain": "visa.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 67,
+    "enabled": true
+  },
+  {
+    "name": "Mastercard",
+    "connectionPayload": {
+      "tenant": "mastercard",
+      "wdInstance": "wd1",
+      "hostSlug": "mastercard",
+      "site": "CorporateCareers",
+      "locale": "en-US"
+    },
+    "domain": "mastercard.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 66,
+    "enabled": true
+  },
+  {
+    "name": "American Express",
+    "connectionPayload": {
+      "tenant": "aexp",
+      "wdInstance": "wd5",
+      "hostSlug": "aexp",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "americanexpress.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 65,
+    "enabled": true
+  },
+  {
+    "name": "Capital One",
+    "connectionPayload": {
+      "tenant": "capitalone",
+      "wdInstance": "wd1",
+      "hostSlug": "capitalone",
+      "site": "CapitalOne",
+      "locale": "en-US"
+    },
+    "domain": "capitalone.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 64,
+    "enabled": true
+  },
+  {
+    "name": "JPMorgan Chase",
+    "connectionPayload": {
+      "tenant": "jpmorganchase",
+      "wdInstance": "wd1",
+      "hostSlug": "jpmorganchase",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "jpmorganchase.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 63,
+    "enabled": true
+  },
+  {
+    "name": "Bank of America",
+    "connectionPayload": {
+      "tenant": "bankofamerica",
+      "wdInstance": "wd1",
+      "hostSlug": "bankofamerica",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "bankofamerica.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 62,
+    "enabled": true
+  },
+  {
+    "name": "Wells Fargo",
+    "connectionPayload": {
+      "tenant": "wellsfargo",
+      "wdInstance": "wd1",
+      "hostSlug": "wellsfargo",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "wellsfargo.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 61,
+    "enabled": true
+  },
+  {
+    "name": "Goldman Sachs",
+    "connectionPayload": {
+      "tenant": "goldmansachs",
+      "wdInstance": "wd1",
+      "hostSlug": "goldmansachs",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "goldmansachs.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 60,
+    "enabled": true
+  },
+  {
+    "name": "Morgan Stanley",
+    "connectionPayload": {
+      "tenant": "morganstanley",
+      "wdInstance": "wd1",
+      "hostSlug": "morganstanley",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "morganstanley.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 59,
+    "enabled": true
+  },
+  {
+    "name": "Citigroup",
+    "connectionPayload": {
+      "tenant": "citi",
+      "wdInstance": "wd5",
+      "hostSlug": "citi",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "citi.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 58,
+    "enabled": true
+  },
+  {
+    "name": "Tesla",
+    "connectionPayload": {
+      "tenant": "tesla",
+      "wdInstance": "wd1",
+      "hostSlug": "tesla",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "tesla.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 70,
+    "enabled": true
+  },
+  {
+    "name": "Ford",
+    "connectionPayload": {
+      "tenant": "ford",
+      "wdInstance": "wd1",
+      "hostSlug": "ford",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "ford.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 55,
+    "enabled": true
+  },
+  {
+    "name": "General Motors",
+    "connectionPayload": {
+      "tenant": "gm",
+      "wdInstance": "wd1",
+      "hostSlug": "gm",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "gm.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 54,
+    "enabled": true
+  },
+  {
+    "name": "Toyota",
+    "connectionPayload": {
+      "tenant": "toyota",
+      "wdInstance": "wd1",
+      "hostSlug": "toyota",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "toyota.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 53,
+    "enabled": true
+  },
+  {
+    "name": "Boeing",
+    "connectionPayload": {
+      "tenant": "boeing",
+      "wdInstance": "wd1",
+      "hostSlug": "boeing",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "boeing.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 52,
+    "enabled": true
+  },
+  {
+    "name": "Lockheed Martin",
+    "connectionPayload": {
+      "tenant": "lockheedmartin",
+      "wdInstance": "wd1",
+      "hostSlug": "lockheedmartin",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "lockheedmartin.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 51,
+    "enabled": true
+  },
+  {
+    "name": "Raytheon",
+    "connectionPayload": {
+      "tenant": "rtx",
+      "wdInstance": "wd1",
+      "hostSlug": "rtx",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "rtx.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 50,
+    "enabled": true
+  },
+  {
+    "name": "Northrop Grumman",
+    "connectionPayload": {
+      "tenant": "ngc",
+      "wdInstance": "wd1",
+      "hostSlug": "ngc",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "northropgrumman.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 49,
+    "enabled": true
+  },
+  {
+    "name": "Walmart",
+    "connectionPayload": {
+      "tenant": "walmart",
+      "wdInstance": "wd5",
+      "hostSlug": "walmart",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "walmart.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 48,
+    "enabled": true
+  },
+  {
+    "name": "Target",
+    "connectionPayload": {
+      "tenant": "target",
+      "wdInstance": "wd1",
+      "hostSlug": "target",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "target.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 47,
+    "enabled": true
+  },
+  {
+    "name": "Costco",
+    "connectionPayload": {
+      "tenant": "costco",
+      "wdInstance": "wd1",
+      "hostSlug": "costco",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "costco.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 46,
+    "enabled": true
+  },
+  {
+    "name": "Home Depot",
+    "connectionPayload": {
+      "tenant": "homedepot",
+      "wdInstance": "wd1",
+      "hostSlug": "homedepot",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "homedepot.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 45,
+    "enabled": true
+  },
+  {
+    "name": "Lowe's",
+    "connectionPayload": {
+      "tenant": "lowes",
+      "wdInstance": "wd1",
+      "hostSlug": "lowes",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "lowes.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 44,
+    "enabled": true
+  },
+  {
+    "name": "Johnson & Johnson",
+    "connectionPayload": {
+      "tenant": "jnj",
+      "wdInstance": "wd1",
+      "hostSlug": "jnj",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 43,
+    "enabled": true
+  },
+  {
+    "name": "Pfizer",
+    "connectionPayload": {
+      "tenant": "pfizer",
+      "wdInstance": "wd1",
+      "hostSlug": "pfizer",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Merck",
+    "connectionPayload": {
+      "tenant": "merck",
+      "wdInstance": "wd1",
+      "hostSlug": "merck",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 41,
+    "enabled": true
+  },
+  {
+    "name": "AbbVie",
+    "connectionPayload": {
+      "tenant": "abbvie",
+      "wdInstance": "wd1",
+      "hostSlug": "abbvie",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 40,
+    "enabled": true
+  },
+  {
+    "name": "Amgen",
+    "connectionPayload": {
+      "tenant": "amgen",
+      "wdInstance": "wd1",
+      "hostSlug": "amgen",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 40,
+    "enabled": true
+  },
+  {
+    "name": "Gilead",
+    "connectionPayload": {
+      "tenant": "gilead",
+      "wdInstance": "wd1",
+      "hostSlug": "gilead",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 39,
+    "enabled": true
+  },
+  {
+    "name": "Moderna",
+    "connectionPayload": {
+      "tenant": "modernatx",
+      "wdInstance": "wd1",
+      "hostSlug": "modernatx",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 39,
+    "enabled": true
+  },
+  {
+    "name": "UnitedHealth Group",
+    "connectionPayload": {
+      "tenant": "uhg",
+      "wdInstance": "wd1",
+      "hostSlug": "uhg",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 38,
+    "enabled": true
+  },
+  {
+    "name": "Anthem",
+    "connectionPayload": {
+      "tenant": "anthem",
+      "wdInstance": "wd1",
+      "hostSlug": "anthem",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 37,
+    "enabled": true
+  },
+  {
+    "name": "Cigna",
+    "connectionPayload": {
+      "tenant": "cigna",
+      "wdInstance": "wd1",
+      "hostSlug": "cigna",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 37,
+    "enabled": true
+  },
+  {
+    "name": "Comcast",
+    "connectionPayload": {
+      "tenant": "comcast",
+      "wdInstance": "wd1",
+      "hostSlug": "comcast",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 36,
+    "enabled": true
+  },
+  {
+    "name": "Verizon",
+    "connectionPayload": {
+      "tenant": "verizon",
+      "wdInstance": "wd1",
+      "hostSlug": "verizon",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 36,
+    "enabled": true
+  },
+  {
+    "name": "AT&T",
+    "connectionPayload": {
+      "tenant": "att",
+      "wdInstance": "wd1",
+      "hostSlug": "att",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 35,
+    "enabled": true
+  },
+  {
+    "name": "T-Mobile",
+    "connectionPayload": {
+      "tenant": "tmobile",
+      "wdInstance": "wd1",
+      "hostSlug": "tmobile",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 35,
+    "enabled": true
+  },
+  {
+    "name": "Disney",
+    "connectionPayload": {
+      "tenant": "disney",
+      "wdInstance": "wd1",
+      "hostSlug": "disney",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 34,
+    "enabled": true
+  },
+  {
+    "name": "Warner Bros Discovery",
+    "connectionPayload": {
+      "tenant": "wbd",
+      "wdInstance": "wd1",
+      "hostSlug": "wbd",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 33,
+    "enabled": true
+  },
+  {
+    "name": "Paramount",
+    "connectionPayload": {
+      "tenant": "paramount",
+      "wdInstance": "wd1",
+      "hostSlug": "paramount",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 33,
+    "enabled": true
+  },
+  {
+    "name": "Expedia",
+    "connectionPayload": {
+      "tenant": "expedia",
+      "wdInstance": "wd1",
+      "hostSlug": "expedia",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 32,
+    "enabled": true
+  },
+  {
+    "name": "Booking Holdings",
+    "connectionPayload": {
+      "tenant": "booking",
+      "wdInstance": "wd1",
+      "hostSlug": "booking",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 32,
+    "enabled": true
+  },
+  {
+    "name": "Uber",
+    "connectionPayload": {
+      "tenant": "uber",
+      "wdInstance": "wd1",
+      "hostSlug": "uber",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "uber.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 65,
+    "enabled": true
+  },
+  {
+    "name": "Lyft",
+    "connectionPayload": {
+      "tenant": "lyft",
+      "wdInstance": "wd1",
+      "hostSlug": "lyft",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "lyft.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 64,
+    "enabled": true
+  },
+  {
+    "name": "Snowflake",
+    "connectionPayload": {
+      "tenant": "snowflake",
+      "wdInstance": "wd1",
+      "hostSlug": "snowflake",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "snowflake.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 63,
+    "enabled": true
+  },
+  {
+    "name": "Splunk",
+    "connectionPayload": {
+      "tenant": "splunk",
+      "wdInstance": "wd1",
+      "hostSlug": "splunk",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 55,
+    "enabled": true
+  },
+  {
+    "name": "VMware",
+    "connectionPayload": {
+      "tenant": "vmware",
+      "wdInstance": "wd1",
+      "hostSlug": "vmware",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 54,
+    "enabled": true
+  },
+  {
+    "name": "Broadcom",
+    "connectionPayload": {
+      "tenant": "broadcom",
+      "wdInstance": "wd1",
+      "hostSlug": "broadcom",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 53,
+    "enabled": true
+  },
+  {
+    "name": "Micron",
+    "connectionPayload": {
+      "tenant": "micron",
+      "wdInstance": "wd1",
+      "hostSlug": "micron",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 52,
+    "enabled": true
+  },
+  {
+    "name": "Applied Materials",
+    "connectionPayload": {
+      "tenant": "amat",
+      "wdInstance": "wd1",
+      "hostSlug": "amat",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 51,
+    "enabled": true
+  },
+  {
+    "name": "Lam Research",
+    "connectionPayload": {
+      "tenant": "lamresearch",
+      "wdInstance": "wd1",
+      "hostSlug": "lamresearch",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 50,
+    "enabled": true
+  },
+  {
+    "name": "KLA",
+    "connectionPayload": {
+      "tenant": "kla",
+      "wdInstance": "wd1",
+      "hostSlug": "kla",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 49,
+    "enabled": true
+  },
+  {
+    "name": "ASML US",
+    "connectionPayload": {
+      "tenant": "asml",
+      "wdInstance": "wd1",
+      "hostSlug": "asml",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 48,
+    "enabled": true
+  },
+  {
+    "name": "Analog Devices",
+    "connectionPayload": {
+      "tenant": "analogdevices",
+      "wdInstance": "wd1",
+      "hostSlug": "analogdevices",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 47,
+    "enabled": true
+  },
+  {
+    "name": "Texas Instruments",
+    "connectionPayload": {
+      "tenant": "ti",
+      "wdInstance": "wd1",
+      "hostSlug": "ti",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 46,
+    "enabled": true
+  },
+  {
+    "name": "Marvell",
+    "connectionPayload": {
+      "tenant": "marvell",
+      "wdInstance": "wd1",
+      "hostSlug": "marvell",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Semiconductors",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 45,
+    "enabled": true
+  },
+  {
+    "name": "Synopsys",
+    "connectionPayload": {
+      "tenant": "synopsys",
+      "wdInstance": "wd1",
+      "hostSlug": "synopsys",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 44,
+    "enabled": true
+  },
+  {
+    "name": "Cadence",
+    "connectionPayload": {
+      "tenant": "cadence",
+      "wdInstance": "wd1",
+      "hostSlug": "cadence",
+      "site": "External",
+      "locale": "en-US"
+    },
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 43,
+    "enabled": true
+  }
+]

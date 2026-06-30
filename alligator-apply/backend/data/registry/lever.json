@@ -1,0 +1,2836 @@
+[
+  {
+    "name": "Spotify",
+    "boardToken": "spotify",
+    "domain": "spotify.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 90,
+    "enabled": true
+  },
+  {
+    "name": "Palantir",
+    "boardToken": "palantir",
+    "domain": "palantir.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 89,
+    "enabled": true
+  },
+  {
+    "name": "Netflix",
+    "boardToken": "netflix",
+    "domain": "netflix.com",
+    "industry": "Technology",
+    "tags": [
+      "faang",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 88,
+    "enabled": true
+  },
+  {
+    "name": "GitHub",
+    "boardToken": "github",
+    "domain": "github.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "remote_first",
+    "priority": 87,
+    "enabled": true
+  },
+  {
+    "name": "Netlify",
+    "boardToken": "netlify",
+    "domain": "netlify.com",
+    "industry": "Technology",
+    "tags": [
+      "startup"
+    ],
+    "remotePolicy": "remote_first",
+    "priority": 80,
+    "enabled": true
+  },
+  {
+    "name": "Lever",
+    "boardToken": "lever",
+    "domain": "lever.co",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 75,
+    "enabled": true
+  },
+  {
+    "name": "Atlassian",
+    "boardToken": "atlassian",
+    "domain": "atlassian.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "remote_first",
+    "priority": 86,
+    "enabled": true
+  },
+  {
+    "name": "Canva",
+    "boardToken": "canva",
+    "domain": "canva.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 85,
+    "enabled": true
+  },
+  {
+    "name": "Square",
+    "boardToken": "square",
+    "domain": "squareup.com",
+    "industry": "Technology",
+    "tags": [
+      "fintech",
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 84,
+    "enabled": true
+  },
+  {
+    "name": "Eventbrite",
+    "boardToken": "eventbrite",
+    "domain": "eventbrite.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 70,
+    "enabled": true
+  },
+  {
+    "name": "Quora",
+    "boardToken": "quora",
+    "domain": "quora.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 68,
+    "enabled": true
+  },
+  {
+    "name": "Medium",
+    "boardToken": "medium",
+    "domain": "medium.com",
+    "industry": "Technology",
+    "tags": [
+      "startup"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 65,
+    "enabled": true
+  },
+  {
+    "name": "Automattic",
+    "boardToken": "automattic",
+    "domain": "automattic.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "remote_first",
+    "priority": 72,
+    "enabled": true
+  },
+  {
+    "name": "Buffer",
+    "boardToken": "buffer",
+    "domain": "buffer.com",
+    "industry": "Technology",
+    "tags": [
+      "startup"
+    ],
+    "remotePolicy": "remote_first",
+    "priority": 60,
+    "enabled": true
+  },
+  {
+    "name": "InVision",
+    "boardToken": "invisionapp",
+    "domain": "invisionapp.com",
+    "industry": "Technology",
+    "tags": [
+      "startup"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 58,
+    "enabled": true
+  },
+  {
+    "name": "Clever",
+    "boardToken": "clever",
+    "domain": "clever.com",
+    "industry": "Technology",
+    "tags": [
+      "startup"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 55,
+    "enabled": true
+  },
+  {
+    "name": "Segment",
+    "boardToken": "segment",
+    "domain": "segment.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 70,
+    "enabled": true
+  },
+  {
+    "name": "Mixmax",
+    "boardToken": "mixmax",
+    "domain": "mixmax.com",
+    "industry": "Technology",
+    "tags": [
+      "startup"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 52,
+    "enabled": true
+  },
+  {
+    "name": "Dialpad",
+    "boardToken": "dialpad",
+    "domain": "dialpad.com",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 65,
+    "enabled": true
+  },
+  {
+    "name": "Dialysis Clinic",
+    "boardToken": "dci",
+    "domain": "",
+    "industry": "Healthcare",
+    "tags": [
+      "healthcare"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 40,
+    "enabled": true
+  },
+  {
+    "name": "Affirm",
+    "boardToken": "affirm",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Aircall",
+    "boardToken": "aircall",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Algolia",
+    "boardToken": "algolia",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Alloy",
+    "boardToken": "alloy",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Amplitude",
+    "boardToken": "amplitude",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Anthropic",
+    "boardToken": "anthropic",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Asana",
+    "boardToken": "asana",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Attentive",
+    "boardToken": "attentive",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Aurora",
+    "boardToken": "aurora",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Benchling",
+    "boardToken": "benchling",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Betterup",
+    "boardToken": "betterup",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Bigid",
+    "boardToken": "bigid",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Billcom",
+    "boardToken": "billcom",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Bird",
+    "boardToken": "bird",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Blend",
+    "boardToken": "blend",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Block",
+    "boardToken": "block",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Bluecore",
+    "boardToken": "bluecore",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Bolt",
+    "boardToken": "bolt",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Bond",
+    "boardToken": "bond",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Box",
+    "boardToken": "box",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Braze",
+    "boardToken": "braze",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Brex",
+    "boardToken": "brex",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Brightwheel",
+    "boardToken": "brightwheel",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Buildkite",
+    "boardToken": "buildkite",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Calm",
+    "boardToken": "calm",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Cameo",
+    "boardToken": "cameo",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Carta",
+    "boardToken": "carta",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Catch",
+    "boardToken": "catch",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Cedar",
+    "boardToken": "cedar",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Chainalysis",
+    "boardToken": "chainalysis",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Chime",
+    "boardToken": "chime",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Circle",
+    "boardToken": "circle",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Clear",
+    "boardToken": "clear",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Clickup",
+    "boardToken": "clickup",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Cloverhealth",
+    "boardToken": "cloverhealth",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Cockroachlabs",
+    "boardToken": "cockroachlabs",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Cohere",
+    "boardToken": "cohere",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Commure",
+    "boardToken": "commure",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Convoy",
+    "boardToken": "convoy",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Coursera",
+    "boardToken": "coursera",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Creditkarma",
+    "boardToken": "creditkarma",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Cruise",
+    "boardToken": "cruise",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Current",
+    "boardToken": "current",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Datadog",
+    "boardToken": "datadog",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Deel",
+    "boardToken": "deel",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Discord",
+    "boardToken": "discord",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Docusign",
+    "boardToken": "docusign",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Drift",
+    "boardToken": "drift",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Dropbox",
+    "boardToken": "dropbox",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Duolingo",
+    "boardToken": "duolingo",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Elastic",
+    "boardToken": "elastic",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Envoy",
+    "boardToken": "envoy",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Everlaw",
+    "boardToken": "everlaw",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Expel",
+    "boardToken": "expel",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Falconx",
+    "boardToken": "falconx",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Figma",
+    "boardToken": "figma",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Flexport",
+    "boardToken": "flexport",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Formlabs",
+    "boardToken": "formlabs",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Frame",
+    "boardToken": "frame",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Front",
+    "boardToken": "front",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Fullstory",
+    "boardToken": "fullstory",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Gem",
+    "boardToken": "gem",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Getaround",
+    "boardToken": "getaround",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Gitlab",
+    "boardToken": "gitlab",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Gopuff",
+    "boardToken": "gopuff",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Grammarly",
+    "boardToken": "grammarly",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Gusto",
+    "boardToken": "gusto",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Hackerone",
+    "boardToken": "hackerone",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Handshake",
+    "boardToken": "handshake",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Headway",
+    "boardToken": "headway",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Heap",
+    "boardToken": "heap",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Hex",
+    "boardToken": "hex",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Highspot",
+    "boardToken": "highspot",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Hims",
+    "boardToken": "hims",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Housecall",
+    "boardToken": "housecall",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Hubspot",
+    "boardToken": "hubspot",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Humaninterest",
+    "boardToken": "humaninterest",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Hyperscience",
+    "boardToken": "hyperscience",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Immuta",
+    "boardToken": "immuta",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Incode",
+    "boardToken": "incode",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Influxdata",
+    "boardToken": "influxdata",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Instacart",
+    "boardToken": "instacart",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Intercom",
+    "boardToken": "intercom",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Ironclad",
+    "boardToken": "ironclad",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Iterable",
+    "boardToken": "iterable",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Jobber",
+    "boardToken": "jobber",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Justworks",
+    "boardToken": "justworks",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Kajabi",
+    "boardToken": "kajabi",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Khealth",
+    "boardToken": "khealth",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Klaviyo",
+    "boardToken": "klaviyo",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Knowbe4",
+    "boardToken": "knowbe4",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Lattice",
+    "boardToken": "lattice",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Lemonade",
+    "boardToken": "lemonade",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Level",
+    "boardToken": "level",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Lime",
+    "boardToken": "lime",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Linktree",
+    "boardToken": "linktree",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Liveperson",
+    "boardToken": "liveperson",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Lob",
+    "boardToken": "lob",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Loom",
+    "boardToken": "loom",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Lucid",
+    "boardToken": "lucid",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Lyft",
+    "boardToken": "lyft",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Magicleap",
+    "boardToken": "magicleap",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Maintainx",
+    "boardToken": "maintainx",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Marqeta",
+    "boardToken": "marqeta",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Mattermost",
+    "boardToken": "mattermost",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Mercury",
+    "boardToken": "mercury",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Metabase",
+    "boardToken": "metabase",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Miro",
+    "boardToken": "miro",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Mixpanel",
+    "boardToken": "mixpanel",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Mongodb",
+    "boardToken": "mongodb",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Monzo",
+    "boardToken": "monzo",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Motive",
+    "boardToken": "motive",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Mux",
+    "boardToken": "mux",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Neuralink",
+    "boardToken": "neuralink",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Newfront",
+    "boardToken": "newfront",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Nextdoor",
+    "boardToken": "nextdoor",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Nextinsurance",
+    "boardToken": "nextinsurance",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Notion",
+    "boardToken": "notion",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Nuro",
+    "boardToken": "nuro",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Nylas",
+    "boardToken": "nylas",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Observe",
+    "boardToken": "observe",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Okta",
+    "boardToken": "okta",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Openai",
+    "boardToken": "openai",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Opendoor",
+    "boardToken": "opendoor",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Opensea",
+    "boardToken": "opensea",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Optimizely",
+    "boardToken": "optimizely",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Oscar",
+    "boardToken": "oscar",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Outreach",
+    "boardToken": "outreach",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Overjet",
+    "boardToken": "overjet",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Pagerduty",
+    "boardToken": "pagerduty",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Pantheon",
+    "boardToken": "pantheon",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Pathai",
+    "boardToken": "pathai",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Patreon",
+    "boardToken": "patreon",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Persona",
+    "boardToken": "persona",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Pilot",
+    "boardToken": "pilot",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Plaid",
+    "boardToken": "plaid",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Planetscale",
+    "boardToken": "planetscale",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Postman",
+    "boardToken": "postman",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Prefect",
+    "boardToken": "prefect",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Procore",
+    "boardToken": "procore",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Productboard",
+    "boardToken": "productboard",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Public",
+    "boardToken": "public",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Puppet",
+    "boardToken": "puppet",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Ramp",
+    "boardToken": "ramp",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Razorpay",
+    "boardToken": "razorpay",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Reddit",
+    "boardToken": "reddit",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Redis",
+    "boardToken": "redis",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Remote",
+    "boardToken": "remote",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Render",
+    "boardToken": "render",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Retool",
+    "boardToken": "retool",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Rippling",
+    "boardToken": "rippling",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Ro",
+    "boardToken": "ro",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Robinhood",
+    "boardToken": "robinhood",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Rubrik",
+    "boardToken": "rubrik",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Runway",
+    "boardToken": "runway",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Samsara",
+    "boardToken": "samsara",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Scaleai",
+    "boardToken": "scaleai",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Seatgeek",
+    "boardToken": "seatgeek",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Sendbird",
+    "boardToken": "sendbird",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Sentinelone",
+    "boardToken": "sentinelone",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Sentry",
+    "boardToken": "sentry",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Servicetitan",
+    "boardToken": "servicetitan",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Shopify",
+    "boardToken": "shopify",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Sigmacomputing",
+    "boardToken": "sigmacomputing",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Singlestore",
+    "boardToken": "singlestore",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Skydio",
+    "boardToken": "skydio",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Smartsheet",
+    "boardToken": "smartsheet",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Snowflake",
+    "boardToken": "snowflake",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Snyk",
+    "boardToken": "snyk",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Sofi",
+    "boardToken": "sofi",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Sourcegraph",
+    "boardToken": "sourcegraph",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Spekit",
+    "boardToken": "spekit",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Springhealth",
+    "boardToken": "springhealth",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Sproutsocial",
+    "boardToken": "sproutsocial",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Stackadapt",
+    "boardToken": "stackadapt",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Starburst",
+    "boardToken": "starburst",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Stripe",
+    "boardToken": "stripe",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Stubhub",
+    "boardToken": "stubhub",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Sumologic",
+    "boardToken": "sumologic",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Superhuman",
+    "boardToken": "superhuman",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Supabase",
+    "boardToken": "supabase",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Synack",
+    "boardToken": "synack",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Talkdesk",
+    "boardToken": "talkdesk",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Tempus",
+    "boardToken": "tempus",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Tenable",
+    "boardToken": "tenable",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Thetradedesk",
+    "boardToken": "thetradedesk",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Thoughtspot",
+    "boardToken": "thoughtspot",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Thumbtack",
+    "boardToken": "thumbtack",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Toast",
+    "boardToken": "toast",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Tome",
+    "boardToken": "tome",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Twitch",
+    "boardToken": "twitch",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Twilio",
+    "boardToken": "twilio",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Udemy",
+    "boardToken": "udemy",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Uniteus",
+    "boardToken": "uniteus",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Upstart",
+    "boardToken": "upstart",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Vanta",
+    "boardToken": "vanta",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Vercel",
+    "boardToken": "vercel",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Verkada",
+    "boardToken": "verkada",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Verily",
+    "boardToken": "verily",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Vimeo",
+    "boardToken": "vimeo",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Viz",
+    "boardToken": "viz",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Volley",
+    "boardToken": "volley",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Waymo",
+    "boardToken": "waymo",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Wealthfront",
+    "boardToken": "wealthfront",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Webflow",
+    "boardToken": "webflow",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Whatnot",
+    "boardToken": "whatnot",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Whoop",
+    "boardToken": "whoop",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Workato",
+    "boardToken": "workato",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Xero",
+    "boardToken": "xero",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Yext",
+    "boardToken": "yext",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Yotpo",
+    "boardToken": "yotpo",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Zapier",
+    "boardToken": "zapier",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Zenefits",
+    "boardToken": "zenefits",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Zip",
+    "boardToken": "zip",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Zocdoc",
+    "boardToken": "zocdoc",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  },
+  {
+    "name": "Zuora",
+    "boardToken": "zuora",
+    "domain": "",
+    "industry": "Technology",
+    "tags": [
+      "enterprise"
+    ],
+    "remotePolicy": "hybrid",
+    "priority": 42,
+    "enabled": true
+  }
+]

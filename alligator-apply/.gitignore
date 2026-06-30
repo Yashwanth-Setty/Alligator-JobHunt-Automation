@@ -6,12 +6,14 @@
 # Dependencies
 node_modules/
 
-# Database & uploads (local only)
+# Database & uploads (local only — never commit)
 backend/data/*.db
 backend/data/*.db-*
-backend/uploads/
-uploads/
-resumes/
+backend/data/*.sqlite
+backend/data/*.sqlite-*
+backend/uploads/**
+uploads/**
+resumes/**
 
 # Logs
 *.log
@@ -20,6 +22,7 @@ logs/
 # Build
 frontend/dist/
 dist/
+backend/outputs/
 
 # IDE
 .idea/

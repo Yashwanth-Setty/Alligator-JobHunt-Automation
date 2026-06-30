@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-27T23:14:55.244Z",
+  "total": 1018,
+  "bySource": {
+    "greenhouse": 451,
+    "lever": 236,
+    "ashby": 161,
+    "smartrecruiters": 92,
+    "workday": 78
+  }
+}

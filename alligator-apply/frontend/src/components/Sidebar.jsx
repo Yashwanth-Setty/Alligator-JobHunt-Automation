@@ -7,6 +7,7 @@ import {
   Settings,
   FileText,
   Zap,
+  Sparkles,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -14,6 +15,7 @@ const NAV = [
   { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { to: '/job-hunt', label: 'Job Hunt', icon: Briefcase },
   { to: '/applications', label: 'Applications', icon: FolderKanban },
+  { to: '/copilot', label: 'Copilot', icon: Sparkles },
   { to: '/analytics', label: 'Analytics', icon: BarChart3 },
   { to: '/settings', label: 'Settings', icon: Settings },
 ];

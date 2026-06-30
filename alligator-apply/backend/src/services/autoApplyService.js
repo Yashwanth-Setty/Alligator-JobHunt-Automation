@@ -1,5 +1,5 @@
 import { getDb, now } from '../db/database.js';
-import { getJobById } from '../services/jobScanService.js';
+import { getJobById, isMockMode } from '../services/jobScanService.js';
 import { launchApplySession } from '../services/playwrightService.js';
 import { reasonAboutJob } from '../services/watsonxAgentService.js';
 
@@ -24,8 +24,21 @@ export function listManualReview() {
 }
 
 export async function mockAutoApplyJob(jobId) {
+  if (isMockMode()) {
+    return {
+      success: false,
+      jobId,
+      message: 'Auto apply disabled in mock mode.',
+      reason: 'mock_mode',
+    };
+  }
+
   const job = getJobById(jobId);
   if (!job) return { success: false, message: 'Job not found' };
+
+  if (job.data_source === 'mock' || String(jobId).startsWith('mock-')) {
+    return { success: false, jobId, message: 'Cannot auto-apply to mock jobs.' };
+  }
 
   if (!job.auto_apply_eligible || job.score < 65) {
     const reason = job.score < 65 ? 'Match score below 65' : 'Not eligible for auto-apply';
@@ -57,6 +70,10 @@ export async function mockAutoApplyJob(jobId) {
 }
 
 export function startBatchAutoApply(onProgress) {
+  if (isMockMode()) {
+    return { started: false, message: 'Auto apply disabled in mock mode.' };
+  }
+
   if (autoApplyState.status === 'running') {
     return { started: false, message: 'Auto-apply already running' };
   }

@@ -23,6 +23,9 @@ router.get('/config', (_req, res) => {
 });
 
 router.post('/batch', (_req, res) => {
+  if (process.env.MOCK_MODE !== 'false') {
+    return res.status(403).json({ error: 'Auto apply disabled in mock mode.' });
+  }
   const state = getAutoApplyStatus();
   if (state.status === 'running') {
     return res.status(409).json({ error: 'Auto-apply already running', status: state });
@@ -38,6 +41,9 @@ router.post('/manual-review/:id/resolve', (req, res) => {
 });
 
 router.post('/:jobId', async (req, res) => {
+  if (process.env.MOCK_MODE !== 'false') {
+    return res.status(403).json({ error: 'Auto apply disabled in mock mode.' });
+  }
   const result = await mockAutoApplyJob(req.params.jobId);
   res.json(result);
 });
